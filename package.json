@@ -6,6 +6,9 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "bin": {
+        "greet": "bin/cli.js"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Morr231/nfactorial-homework-0607-js.git"
@@ -16,5 +19,8 @@
     "bugs": {
         "url": "https://github.com/Morr231/nfactorial-homework-0607-js/issues"
     },
-    "homepage": "https://github.com/Morr231/nfactorial-homework-0607-js#readme"
+    "homepage": "https://github.com/Morr231/nfactorial-homework-0607-js#readme",
+    "dependencies": {
+        "yargs": "13.2"
+    }
 }
